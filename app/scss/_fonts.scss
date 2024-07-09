@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Montserrat-Regular';
+    font-weight: 400;
+    font-style: normal;
+    src: local('Montserrat-Regular'),
+        url('../fonts/Montserrat-Regular.woff2') format('font-woff2'),
+        url('../fonts/Montserrat-Regular.woff') format('font-woff');
+    font-display: swap;
+}
+   
+@font-face {
+    font-family: 'Montserrat-Medium';
+    font-weight: 500;
+    font-style: normal;
+    src: local('Montserrat-Medium'),
+        url('../fonts/Montserrat-Medium.woff2') format('font-woff2'),
+        url('../fonts/Montserrat-Medium.woff') format('font-woff');
+    font-display: swap;
+} 
+ 
+@font-face {
+    font-family: 'Montserrat-Black';
+    font-weight: 900;
+    font-style: normal;
+    src: local('Montserrat-Black'),
+        url('../fonts/Montserrat-Black.woff2') format('font-woff2'),
+        url('../fonts/Montserrat-Black.woff') format('font-woff');
+    font-display: swap;
+} 
+ 
+@font-face {
+    font-family: 'Hind-Regular';
+    font-weight: 400;
+    font-style: normal;
+    src: local('Hind-Regular'),
+        url('../fonts/Hind-Regular.woff2') format('font-woff2'),
+        url('../fonts/Hind-Regular.woff') format('font-woff');
+    font-display: swap;
+} 
+ 
+@font-face {
+    font-family: 'Hind-Medium';
+    font-weight: 500;
+    font-style: normal;
+    src: local('Hind-Medium'),
+        url('../fonts/Hind-Medium.woff2') format('font-woff2'),
+        url('../fonts/Hind-Medium.woff') format('font-woff');
+    font-display: swap;
+} 
+ 
+@font-face {
+    font-family: 'Hind-Bold';
+    font-weight: 700;
+    font-style: normal;
+    src: local('Hind-Bold'),
+        url('../fonts/Hind-Bold.woff2') format('font-woff2'),
+        url('../fonts/Hind-Bold.woff') format('font-woff');
+    font-display: swap;
+}
+
+

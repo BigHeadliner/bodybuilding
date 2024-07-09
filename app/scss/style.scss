@@ -1,0 +1,137 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+
+
+.header {
+    background-color: #030D19;
+    opacity: 0.8;
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        background-color: #030D19;
+        opacity: 0.8; 
+        padding: 60px 74px 60px 90px;
+    }
+
+    &__logo-img {
+        width: 146px;
+        height: 60px;
+    }
+
+    .menu {
+
+        &__btn {
+            position: relative;
+            width: 36px;
+            height: 24px;
+            padding: 0;
+            background-color: transparent;
+            transition: all 0.25s; 
+            border: 1px solid transparent;
+            display: none;
+
+            .row-top,
+            .row-middle,
+            .row-bottom {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 36px;
+                height: 4px; 
+                border-radius: 20px;
+                background: white;
+                transform: rotate(0);
+                transition: all 0.5s;
+            }
+
+            .row-middle {
+                transform: translateY(10px);
+            }
+
+            .row-bottom {
+                transform: translateY(19px);
+            }
+
+        }
+
+        &__btn.menu__btn--open {
+
+            .row-top {
+                transform: rotate(45deg) translateY(10px) translateX(13px);
+            }
+
+            .row-middle {
+                display: none;
+            }
+
+            .row-bottom {
+                transform: rotate(-45deg) translateY(13px) translateX(-10px);
+            }
+        }
+
+        &__list {
+            display: flex;
+            align-items: center;
+        }
+
+        &__item+.menu__item {
+            margin-left: 82px;
+        } 
+         
+       &__item--special-btn{ 
+         padding: 19px 54px; 
+         background: linear-gradient(to right, #FF5637 0%, #F7084C 100%); 
+         border-radius: 10px; 
+         width: 331px; 
+         height: 64px; 
+         display: flex; 
+         justify-content: center; 
+         align-items: center;
+       } 
+        
+
+        &__link {
+            @extend %montserrat-500;
+            font-size: 24px;
+            color: #FFF;
+        } 
+         
+        &__link--special-btn{ 
+            @extend %montserrat-500;
+            font-size: 20px;
+            color: #FFF;   
+        }
+
+    }
+}
+
+
+
+
+ 
+
+
+   
+   
+
+ 
+  
+ 
+   
+
+ 
+  
+ 
+
+@import 'media'; 
+ 
+ 
