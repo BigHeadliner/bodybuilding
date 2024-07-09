@@ -7,7 +7,7 @@
 
 .header { 
     background-color: #030D19;
-    background-image: url(../images/header/boxer-bg.png); 
+    background-image: url('../images/header/boxer-bg.png'); 
     background-repeat: no-repeat;  
     background-size:auto;
     background-position: bottom right;
@@ -122,7 +122,7 @@
     &__text{ 
        @extend %montserrat-500; 
        font-size: 20px; 
-       line-height: 26px; 
+       line-height: 27px; 
        color: #FFF; 
        width: 100%; 
        max-width: 936px; 
@@ -144,7 +144,7 @@
    &__info{   
     width: 100%;
     max-width: 1412px; 
-    border:1px solid goldenrod; 
+    border:1px solid transparent; 
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
@@ -171,7 +171,7 @@
         content: "";
         width: 66px; 
         height: 63px;   
-        background-image: url(../images/header/phone.svg); 
+        background-image: url('../images/header/phone.svg'); 
         background-repeat: no-repeat; 
         background-position: center; 
         background-size:cover;
@@ -182,11 +182,11 @@
     }    
      
     &__info--clock::before{ 
-        background-image: url(../images/header/clock.svg);   
+        background-image: url('../images/header/clock.svg');   
     }
       
     &__info--location::before{ 
-        background-image: url(../images/header/location.svg);   
+        background-image: url('../images/header/location.svg');   
     }
 
 }  
@@ -194,7 +194,7 @@
 .benefits1{ 
     padding-top: 165px; 
     background-color: #030d19; 
-    background-image: url(../images/benefits1/woman-holding-weights.png); 
+    background-image: url('../images/benefits1/woman-holding-weights.png'); 
     background-repeat: no-repeat;   
     background-size: auto;
     background-position: right;
@@ -218,7 +218,7 @@
     }
      
    &__item{ 
-       border:1px solid chartreuse;  
+       border:1px solid transparent;  
        width: 100%; 
        max-width: 758px; 
        padding-left: 187px; 
@@ -234,7 +234,7 @@
 
     &__item-title::before{  
         content: "";  
-        background-image: url(../images/benefits1/dumbbell.svg); 
+        background-image: url('../images/benefits1/dumbbell.svg'); 
         background-repeat: no-repeat;
         background-size: auto;
         background-position: center;
@@ -249,15 +249,15 @@
     }  
      
     &__item--karate::before{ 
-        background-image: url(../images/benefits1/karate.svg);   
+        background-image: url('../images/benefits1/karate.svg');   
     } 
      
     &__item--biceps::before{ 
-        background-image: url(../images/benefits1/biceps.svg);   
+        background-image: url('../images/benefits1/biceps.svg');   
     } 
      
     &__item--basketball::before{ 
-        background-image: url(../images/benefits1/basketball.svg);   
+        background-image: url('../images/benefits1/basketball.svg');   
     }
      
 
@@ -309,6 +309,69 @@
         justify-content: center; 
         align-items: center;
     }
+} 
+ 
+.benefits2{  
+    background-color: #030D19; 
+    padding-top: 107px;  
+    background-image: url('../images/benefits2/male-biceps-workout.png'); 
+    background-repeat: no-repeat;  
+    background-size: auto;
+    background-position: bottom left; 
+     
+   &__inner{ 
+    overflow: hidden;
+   }
+     
+    &__title{ 
+     @extend  %hind-500; 
+     font-size: 48px; 
+     color: #FFF; 
+     text-align: center; 
+     display: block;    
+     margin-bottom: 87px;
+    }   
+     
+    &__items{  
+        width: 100%;
+        max-width: 1700px; 
+        border: 1px solid transparent; 
+        margin: 0 auto 117px; 
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr); 
+        grid-row-gap: 61px; 
+        grid-column-gap: 217px; 
+    }  
+     
+    &__item{  
+        width: 100%;
+        width: 715px; 
+        padding-left: 153px; 
+        border: 1px solid transparent; 
+        position: relative; 
+    } 
+     
+    &__item-title{ 
+      @extend  %hind-700; 
+      font-size: 40px; 
+      color: #FFF;  
+      margin-bottom: 31px;
+    } 
+     
+   &__item-text{ 
+     @extend %montserrat-500;  
+     font-size: 24px; 
+     line-height: 40px; 
+     color: #FFF; 
+     opacity: 0.8;
+   } 
+    
+   &__item-img{ 
+    position: absolute; 
+    top: -38px;
+    left: -35px;
+   }
 }
  
 
