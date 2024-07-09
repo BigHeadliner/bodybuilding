@@ -7,7 +7,11 @@
 
 .header {
     background-color: #030D19;
-    opacity: 0.8;
+    opacity: 0.8; 
+    background-image: url(../images/header/boxer-bg.png); 
+    background-repeat: no-repeat;  
+    background-size:auto;
+    background-position: bottom right;
 
     &__top {
         display: flex;
@@ -18,7 +22,7 @@
         right: 0;
         z-index: 999;
         background-color: #030D19;
-        opacity: 0.8; 
+        // opacity: 0.8; 
         padding: 60px 74px 60px 90px;
     }
 
@@ -86,18 +90,6 @@
         &__item+.menu__item {
             margin-left: 82px;
         } 
-         
-       &__item--special-btn{ 
-         padding: 19px 54px; 
-         background: linear-gradient(to right, #FF5637 0%, #F7084C 100%); 
-         border-radius: 10px; 
-         width: 331px; 
-         height: 64px; 
-         display: flex; 
-         justify-content: center; 
-         align-items: center;
-       } 
-        
 
         &__link {
             @extend %montserrat-500;
@@ -111,8 +103,209 @@
             color: #FFF;   
         }
 
+    } 
+     
+    &__main{ 
+        padding-top: 300px; 
+        padding-left: 69px;  
+    } 
+     
+    &__title{  
+        width: 100%;
+        max-width: 1005px; 
+        height: 160px;  
+        @extend %hind-500;
+        color:#FFF; 
+        font-size: 80px; 
+        line-height: 80px;   
+        margin-bottom: 31px;
+    } 
+     
+    &__text{ 
+       @extend %montserrat-500; 
+       font-size: 20px; 
+       line-height: 26px; 
+       color: #FFF; 
+       width: 100%; 
+       max-width: 936px; 
+       margin-bottom: 57px;
+    } 
+     
+    &__book-btn{ 
+      margin-bottom: 31px;
+    } 
+     
+    &__main-btn{ 
+        @extend %montserrat-500; 
+        font-size: 20px;  
+        margin-bottom: 191px; 
+        color:#FFF; 
+        display: block;
+    }  
+     
+   &__info{   
+    width: 100%;
+    max-width: 1412px; 
+    border:1px solid goldenrod; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 95px;
+   }
+     
+   &__info-item{  
+     padding-left: 89px; 
+     position:relative; 
+     border: 1px solid transparent; 
+     height: 63px; 
+     display: flex; 
+     align-items:center;
+   } 
+    
+   &__info-text{ 
+    @extend  %montserrat-500; 
+    font-size: 20px; 
+    color:#FFF;  
+    display: block;
+    }
+     
+    &__info-text::before{  
+        content: "";
+        width: 66px; 
+        height: 63px;   
+        background-image: url(../images/header/phone.svg); 
+        background-repeat: no-repeat; 
+        background-position: center; 
+        background-size:cover;
+        position: absolute; 
+        top: 0; 
+        left:0; 
+        border:1px solid transparent;
+    }    
+     
+    &__info--clock::before{ 
+        background-image: url(../images/header/clock.svg);   
+    }
+      
+    &__info--location::before{ 
+        background-image: url(../images/header/location.svg);   
+    }
+
+}  
+ 
+.benefits1{ 
+    padding-top: 165px; 
+    background-color: #030d19;
+    opacity: 0.7;  
+    background-image: url(../images/benefits1/woman-holding-weights.png); 
+    background-repeat: no-repeat;  
+    background-size: auto;
+    background-position: right;
+     
+    &__title{ 
+      @extend %hind-500; 
+      font-size: 48px; 
+      text-align:center;   
+      color: #FFF; 
+      margin-bottom: 90px;
+    }  
+     
+    &__items{ 
+       padding-left: 69px; 
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       grid-template-rows: repeat(2, 1fr);
+       grid-column-gap: 160px;
+       grid-row-gap: 189px; 
+       margin-bottom: 183px;
+    }
+     
+   &__item{ 
+       border:1px solid chartreuse;  
+       width: 100%; 
+       max-width: 758px; 
+       padding-left: 187px; 
+       position: relative;
+    } 
+     
+    &__item-title{ 
+       @extend %hind-700;  
+       font-size: 40px; 
+       color:#FFF; 
+       margin-bottom: 31px;
+    }   
+
+    &__item-title::before{  
+        content: "";  
+        background-image: url(../images/benefits1/dumbbell.svg); 
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: center;
+        width: 105px; 
+        height: 91px;  
+        border-radius: 50%;
+        border: 1px solid transparent; 
+        position: absolute; 
+        top: 29px; 
+        left: 15px;
+    }  
+     
+    &__item--karate::before{ 
+        background-image: url(../images/benefits1/karate.svg);   
+    } 
+     
+    &__item--biceps::before{ 
+        background-image: url(../images/benefits1/biceps.svg);   
+    } 
+     
+    &__item--basketball::before{ 
+        background-image: url(../images/benefits1/basketball.svg);   
+    }
+     
+
+      
+    &__item-text{ 
+       @extend  %montserrat-500; 
+       font-size: 24px; 
+       line-height: 40px; 
+       color:#FFF; 
+       opacity: 0.8;
+    }
+} 
+ 
+.video{ 
+    background-color: #030D19; 
+     
+    &__suptitle{ 
+        @extend %hind-500; 
+        font-size: 48px; 
+        text-align: center; 
+        color: #FFF; 
+        margin-bottom: 40px;
+    } 
+     
+    &__title{ 
+        @extend %hind-500; 
+        font-size: 80px; 
+        text-align: center; 
+        color: #FFF;  
+        margin-bottom: 64px;
+    } 
+     
+    &__content{ 
+        width: 100%; 
+        max-width: 1320px; 
+        height: 601px; 
+        border-radius: 20px; 
+        margin: 0 auto 89px; 
+        background-image: url(../images/video/video-content-bg.jpg);    
+        background-repeat: no-repeat; 
+        background-position: center; 
+        background-size: cover;
     }
 }
+ 
+
 
 
 
