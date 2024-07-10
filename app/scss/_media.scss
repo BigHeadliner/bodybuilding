@@ -101,7 +101,24 @@
         margin-bottom: 170px;
     }
 
- } 
+ }  
+   
+ @media(max-width:1445px) {     
+     
+    // video
+     
+    .video__content {
+        width: 100%;
+        max-width: 1125px;
+        height: 510px;  
+    } 
+     
+    .video__title { 
+        margin-bottom: 87px;
+    }
+   
+
+ }
   
  @media(max-width:1370px) {     
      
@@ -130,7 +147,23 @@
      
     .header__main-btn {
         margin-bottom: 115px; 
+    }  
+      
+    // video
+     
+    .video__suptitle {
+        font-size: 43px; 
     } 
+     
+    .video__title {
+        font-size: 65px; 
+    } 
+     
+    .video__content {
+        width: 100%;
+        max-width: 975px;
+        height: 445px;
+    }
      
  }  
   
@@ -230,6 +263,26 @@
      
     .benefits1__item-title {
         margin-bottom: 40px; 
+    } 
+      
+    // video 
+
+    .video__suptitle {
+        font-size: 48px;  
+        margin-bottom: 44px;
+    } 
+     
+    .video__title {
+        font-size: 80px;  
+        margin-bottom: 135px; 
+    } 
+     
+    .video__content {
+        width: 100%;
+        max-width: 662px;
+        height: 523px;  
+        background-image: url(../images/video/video-content-tablet-bg.png); 
+        margin-bottom: 91px;
     }
 
  }
@@ -265,6 +318,21 @@
         row-gap: 100px;
     } 
      
+
+ } 
+  
+ @media(max-width: 970px) {   
+     
+    // video
+     
+    .video__title{ 
+        font-size: 64px;
+    } 
+     
+    .video__suptitle {
+        font-size: 39px;
+        margin-bottom: 41px; 
+    }
 
  }
   
@@ -366,7 +434,18 @@
         transform: translateY(0);
     }
 
- }  
+ }   
+  
+  
+ @media(max-width: 870px) {       
+     
+    // video
+     
+    .video__title {
+        margin-bottom: 107px;
+    }
+
+ }
   
  @media(max-width: 815px) {    
      
@@ -394,6 +473,24 @@
      
     .benefits1__items {
         row-gap: 75px; 
+    }  
+     
+    // video
+     
+    .video__title{ 
+        font-size: 50px; 
+        margin-bottom: 75px;
+    } 
+     
+    .video__suptitle {
+        font-size: 34px;
+        margin-bottom: 35px; 
+    } 
+     
+    .video__content {
+        width: 100%;
+        max-width: 587px;
+        height: 435px; 
     }
 
  } 
@@ -444,6 +541,23 @@
      
     .benefits1__item{ 
         padding-left: 0;
+    } 
+      
+    // video  
+     
+    .video__suptitle {
+        font-size: 30px;
+        margin-bottom: 19px; 
+    }
+
+    .video__title {
+        font-size: 40px;
+        margin-bottom: 65px; 
+    } 
+      
+    .video__content {
+        max-width: 510px;
+        height: 389px; 
     }
 
  }
@@ -464,6 +578,13 @@
      
     .benefits1__items {
         row-gap: 54px;
+    }  
+     
+    // video
+     
+    .video__content {
+        max-width: 410px;
+        height: 325px; 
     }
 
      
@@ -527,7 +648,18 @@
      
     .header__main-btn {
         margin-bottom: 65px; 
-    } 
+    }   
+     
+    // video 
+     
+    .video__title {
+        line-height: 49px; 
+    }
+     
+    .video__content {
+        max-width: 318px;
+        height: 250px; 
+    }
         
 } 
  
@@ -549,6 +681,12 @@
      
     .benefits1__item-title {
         font-size: 25px; 
+    }  
+     
+    // video
+     
+    .video__suptitle {
+        font-size: 24px; 
     }
 
 } 
@@ -616,7 +754,33 @@
      
     .benefits1__items {
         row-gap: 45px; 
+    }  
+     
+    // video 
+     
+    .video__suptitle {
+        font-size: 30px;
+        margin-bottom: 17px; 
+    } 
+     
+    .video__title {
+        font-size: 48px;
+        margin-bottom: 54px; 
+    } 
+     
+    .video__content {
+        max-width: 279px;
+        height: 197px;  
+        margin-bottom: 103px;
+    } 
+     
+    .video__content-img, 
+    .video__content-link{ 
+        width: 24px; 
+        height: 24px; 
     }
+     
+
 
 } 
  
@@ -638,6 +802,18 @@
         font-size: 27px;
         line-height: 37px;
         margin-bottom: 40px;
-     }
+     }  
+      
+    //  video
+      
+     .video__title {
+        font-size: 27px; 
+        margin-bottom: 30px;
+     } 
+      
+     .video__suptitle {
+        font-size: 21px;
+        margin-bottom: 0px; 
+    }
 
 }
