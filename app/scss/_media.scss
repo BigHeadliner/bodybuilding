@@ -16,7 +16,25 @@
         margin-bottom: 257px; 
     }
 
- }   
+ }    
+  
+ @media(max-width:1750px) {    
+     
+    // benefits1
+     
+    .benefits1__items {
+        padding-left: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      
+        grid-template-rows: repeat(2, 1fr);
+        // grid-column-gap: 160px;
+        // grid-row-gap: 189px; 
+        grid-gap:130px;
+        margin-bottom: 183px;
+    }
+
+ }
   
  @media(max-width:1580px) {     
      
@@ -46,7 +64,25 @@
     }
      
 
- } 
+ }  
+  
+ @media(max-width:1500px) {    
+     
+     // benefits1
+     
+    .benefits1__items {
+       display: flex; 
+       flex-direction: column; 
+       justify-content: center; 
+       align-items: center; 
+       grid-gap: 100px;
+    }  
+     
+    .benefits1__title {
+        margin-bottom: 117px; 
+    }
+
+ }
    
   
  @media(max-width:1465px) {    
@@ -96,7 +132,17 @@
         margin-bottom: 115px; 
     } 
      
- } 
+ }  
+  
+ @media(max-width:1035px) {   
+        
+    //  benefits1 
+
+    .benefits1__title {
+        margin-bottom: 85px; 
+    }
+
+ }
   
  @media(max-width:1025px) {   
      
@@ -157,6 +203,33 @@
         background-repeat: no-repeat;  
         background-size:auto;
         background-position:  right; 
+    } 
+      
+     
+    // .benefits1
+     
+    .benefits1 {
+        padding-top:38px;  
+        background-position: bottom right;
+    } 
+     
+    .benefits1__title{  
+        padding: 0 0 0 49px; 
+        text-align: initial; 
+        margin-bottom: 108px;
+    } 
+     
+    .benefits1__items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: initial;
+        padding: 0 132px 163px 92px; 
+        row-gap: 189px;
+    } 
+     
+    .benefits1__item-title {
+        margin-bottom: 40px; 
     }
 
  }
@@ -171,6 +244,29 @@
     }
 
  }    
+  
+ @media(max-width: 995px) {     
+     
+    // benefits1 
+     
+    .benefits1__title { 
+        padding: 0; 
+        margin-bottom: 87px; 
+        text-align: center; 
+        line-height: 54px;
+    }
+     
+    .benefits1__items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        row-gap: 100px;
+    } 
+     
+
+ }
   
  @media(max-width: 910px) {    
      
@@ -270,7 +366,17 @@
         transform: translateY(0);
     }
 
- } 
+ }  
+  
+ @media(max-width: 815px) {    
+     
+    // benefits1
+     
+    .benefits1__items { 
+      margin-bottom: 45px;
+    }
+
+ }
   
  @media(max-width: 730px) {   
      
@@ -282,6 +388,12 @@
      
     .header__top {
         padding: 32px 37px;
+    }  
+     
+    // benefits1
+     
+    .benefits1__items {
+        row-gap: 75px; 
     }
 
  } 
@@ -298,9 +410,43 @@
      
     .header__title {
         height: 137px;
+    } 
+      
+    // benefits1
+
+    .benefits1__title {
+        font-size: 40px;
+        line-height: 49px; 
+    } 
+     
+    .benefits1__item-title {
+        font-size: 31px; 
+    } 
+     
+    .benefits1__item-title {
+        margin-bottom: 20px; 
+    } 
+     
+    .benefits1__item-text {
+        font-size: 17px;
+        line-height: 35px;
     }
 
- } 
+ }  
+  
+ @media(max-width: 650px) {    
+     
+    // benefits1
+     
+    .benefits1__item-title::before { 
+        display: none;
+    } 
+     
+    .benefits1__item{ 
+        padding-left: 0;
+    }
+
+ }
   
  @media(max-width: 570px) {   
      
@@ -308,6 +454,16 @@
      
     .header__title {
         margin-bottom: 43px; 
+    } 
+      
+    // benefits1 
+
+    .benefits1__title {
+        margin-bottom: 57px; 
+    } 
+     
+    .benefits1__items {
+        row-gap: 54px;
     }
 
      
@@ -339,7 +495,18 @@
         margin-bottom: 59px;
     }
 
-} 
+}  
+ 
+@media(max-width:475px) {     
+     
+    // benefits1
+     
+    .benefits1__item-title {
+      margin-bottom: 10px;  
+      font-size: 27px;
+    }
+
+}
  
 @media(max-width:435px) {    
      
@@ -371,6 +538,17 @@
      
     .header__top {
         padding: 32px 19px;
+    } 
+      
+    // benefits1 
+
+    .benefits1__title {
+        font-size: 30px;
+        line-height: 43px; 
+    } 
+     
+    .benefits1__item-title {
+        font-size: 25px; 
     }
 
 } 
@@ -410,6 +588,34 @@
             width: 237px;
             text-align: center; 
             margin-bottom: 36px;
+    } 
+      
+    //  benefits1  
+
+    .benefits1 {
+        background-image: url(../images/benefits1/woman-holding-weights-mobile.png);
+        background-position:  bottom right;
+    }
+ 
+     
+    .benefits1__title {
+        font-size: 32px;
+        line-height: 40px;  
+        margin-bottom: 73px;
+    } 
+     
+    .benefits1__item-title {
+        font-size: 24px; 
+        margin-bottom: 17px;
+    } 
+     
+    .benefits1__item-text {
+        font-size: 20px;
+        line-height: 30px; 
+    } 
+     
+    .benefits1__items {
+        row-gap: 45px; 
     }
 
 } 
@@ -424,6 +630,14 @@
      
     .header__title {
         font-size: 27px; 
-    }
+    } 
+      
+    // benefits1 
+
+    .benefits1__title {
+        font-size: 27px;
+        line-height: 37px;
+        margin-bottom: 40px;
+     }
 
 }
