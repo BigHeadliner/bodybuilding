@@ -197,7 +197,15 @@
     .benefits3__title { 
         margin-bottom: 85px; 
         line-height: 65px;
+    }   
+     
+    // contact
+ 
+    .contact__title{ 
+        line-height: 65px;
     }
+     
+    
 
  }
   
@@ -403,6 +411,24 @@
      
     .benefits3__item{ 
        margin: 0; 
+    } 
+     
+    // contact 
+     
+    .contact{ 
+        padding-top: 24px; 
+        background-image: url('../images/booking/young-fitness-man-tablet.png');
+    } 
+     
+    .contact__title{  
+        font-size: 60px; 
+        line-height: 80px; 
+        text-align: left; 
+        margin-bottom: 75px; 
+    } 
+     
+    .contact__booking{ 
+        margin-bottom: 125px;
     }
 
  }
@@ -580,7 +606,16 @@
     .benefits3__title {
         font-size: 54px;  
         line-height: 65px;
+    }   
+     
+    // contact
+     
+    .contact__title {  
+        font-size: 54px;  
+        line-height: 65px;
     }
+     
+
 
  }
   
@@ -630,7 +665,24 @@
         height: 435px; 
     }
 
- } 
+ }  
+  
+ @media(max-width: 709px) {     
+     
+    // contact 
+     
+    .contact{ 
+        background-image: none;
+    }
+     
+    .contact__booking {  
+        flex-direction: column; 
+        row-gap: 30px;
+    } 
+     
+    
+
+ }
   
  @media(max-width: 685px) {   
      
@@ -692,7 +744,14 @@
     .benefits3__title { 
         font-size: 40px;  
         line-height: 54px;
-    } 
+    }   
+     
+    // contact
+     
+    .contact__title{ 
+        font-size: 40px;
+        line-height: 49px;
+    }
 
  }  
   
@@ -873,6 +932,13 @@
      
     .benefits3__item-img {
         margin-bottom: 25px; 
+    } 
+     
+    // contact
+
+    .contact__title {
+        font-size: 35px;
+        line-height: 43px; 
     }
 
 }
@@ -951,7 +1017,7 @@
     //  benefits1  
 
     .benefits1 {
-        background-image: url(../images/benefits1/woman-holding-weights-mobile.png);
+        background-image: url('../images/benefits1/woman-holding-weights-mobile.png');
         background-position:  bottom right;
     }
  
@@ -1070,10 +1136,36 @@
     .benefits3__item-text{ 
         font-size: 16px; 
         line-height: 40px;
+    } 
+     
+    //  contact 
+     
+    .contact__title{  
+        font-size: 24px; 
+        line-height: 30px; 
+        margin-bottom: 34px;
+    } 
+     
+    .contact__booking {
+        row-gap: 36px;  
+        margin-bottom: 100px;
     }
 
 
-} 
+}  
+ 
+ 
+@media(max-width:359px) {  
+     
+    // contact 
+     
+    .contact__booking-btn{     
+        width: 300px;
+        height: 50px;
+        padding: 19px 25px; 
+    }
+
+}
  
 @media(max-width:354px) {
 

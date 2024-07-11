@@ -437,11 +437,11 @@
  
   
 .contact{  
-    background-color: #030d19;
     padding-top: 137px;  
-    background-image: url('../images/booking/young-fitness-man.png'); 
+    background-image: url('../images/booking/young-fitness-man.png');  
+    background-color: #030d19; 
     background-repeat: no-repeat;  
-    background-size:auto;
+    background-size: auto;
     background-position: bottom right;
      
     &__title{ 
