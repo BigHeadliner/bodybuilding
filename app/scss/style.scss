@@ -355,7 +355,7 @@
      
     &__item{  
         width: 100%;
-        width: 715px; 
+        max-width: 715px; 
         padding-left: 153px; 
         border: 1px solid transparent; 
         position: relative; 
@@ -380,6 +380,10 @@
     position: absolute; 
     top: -38px;
     left: -35px;
+   } 
+    
+   &__item-img-mobile{ 
+      display: none;
    }
 }
   
@@ -408,7 +412,7 @@
     
    &__item{  
      width: 100%;
-     width: 466px; 
+     max-width: 466px; 
      border-radius: 20px; 
      padding: 73px 33px 50px 33px; 
      box-shadow: 0px 4px 41px 4px rgba(247,8,76,1); 
