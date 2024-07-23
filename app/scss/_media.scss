@@ -86,11 +86,25 @@
         margin-bottom: 40px; 
     }  
      
+    // benefits1
+     
+    .benefits1 {
+        padding-top: 117px; 
+    } 
+
+     
     // benefits2
      
     .benefits2__items {
         display: grid;
         grid-gap:50px;
+    }  
+     
+    // benefits3
+     
+    .benefits3 {
+        background-color: #030d19;
+        padding: 107px 0 105px; 
     }
      
 
@@ -223,7 +237,18 @@
         display: none;
     }
 
- } 
+ }  
+  
+ @media(max-width:1315px) {   
+     
+    // header
+     
+    .header__main-btn {
+        margin-bottom: 143px;
+    }
+
+}   
+
   
  @media(max-width:1197px) {    
      
@@ -258,6 +283,12 @@
         width: 100%;
         max-width: 975px;
         height: 445px;
+    } 
+      
+    // benefits1
+     
+    .benefits1__items {
+        margin-bottom: 135px; 
     }
      
  }   
@@ -272,16 +303,28 @@
 
  }
   
- @media(max-width:1035px) {   
+ @media(max-width:1035px) {     
+     
+    // header
+     
+    .header__info {
+        margin-bottom: 50px; 
+    }
         
     //  benefits1 
 
     .benefits1__title {
         margin-bottom: 85px; 
-    } 
+    }  
+     
+    // benefits2
      
     .benefits2__items {
-        margin-bottom: 159px;
+        margin-bottom: 123px;
+    } 
+      
+    .benefits2 {
+        padding-top: 54px; 
     }
 
  }
@@ -510,6 +553,10 @@
      
     .benefits2__title {
         line-height: 54px; 
+    } 
+     
+    .benefits2__items {
+        margin-bottom: 98px; 
     }
 
  }
@@ -659,7 +706,31 @@
       margin-bottom: 45px;
     }
 
- }
+ } 
+  
+ @media(max-width: 777px) {      
+     
+    // header
+     
+    .header__top {
+        padding: 19px 35px 19px 35px;
+    }  
+     
+    // benefits2
+     
+    .benefits2__items {
+        margin-bottom: 37px; 
+    }
+     
+    // benefits3
+     
+    .benefits3 {
+        background-color: #030d19;
+        padding: 107px 0 70px; 
+    }
+
+ } 
+
   
  @media(max-width: 730px) {   
      
@@ -716,6 +787,12 @@
      
     .benefits2__items {
         margin-bottom: 89px; 
+    }  
+     
+    // footer
+     
+    .footer__copyright{ 
+        display: none;
     }
      
     
@@ -794,7 +871,29 @@
         line-height: 49px;
     }
 
- }  
+ }   
+  
+ @media(max-width: 670px) {    
+     
+    // header
+     
+    .header__top {
+        padding: 15px 27px;
+    }   
+     
+    // benefits1
+     
+    .benefits1__title {
+        margin-bottom: 75px; 
+    }  
+     
+    // benefits2
+     
+    .benefits2__items {
+        margin-bottom: 0px; 
+    }
+
+ }
   
  @media(max-width: 650px) {    
      
@@ -823,6 +922,16 @@
     .video__content {
         max-width: 510px;
         height: 389px; 
+    }
+
+ } 
+  
+ @media(max-width: 590px) {    
+     
+    // contact
+     
+    .contact__booking {
+        margin-bottom: 45px;
     }
 
  }
@@ -907,7 +1016,17 @@
         padding: 38px 33px 38px 33px;
     }
 
-}  
+}   
+ 
+@media(max-width:490px) {     
+     
+    //  header
+     
+    .header__top {
+        padding: 5px 27px; 
+    }
+
+}
  
 @media(max-width:475px) {     
      
@@ -916,8 +1035,32 @@
     .benefits1__item-title {
       margin-bottom: 10px;  
       font-size: 27px;
+    }  
+     
+    // footer
+     
+    .footer__social {  
+        width: 100%; 
+        max-width: 117px; 
+        padding-right: 0;
     }
 
+} 
+ 
+@media(max-width:450px){   
+     
+    // video
+
+     
+    .video__content {
+        margin-bottom: 55px; 
+    }  
+     
+    // benefits3
+     
+    .benefits3 {
+        padding: 75px 0 9px; 
+    }
 }
  
 @media(max-width:435px) {    
@@ -990,8 +1133,8 @@
     // header
      
     .header__top {
-        padding: 32px 19px;
-    } 
+        padding: 5px 18px;
+    }
       
     // benefits1 
 
@@ -1018,13 +1161,10 @@
 
 } 
  
-@media(max-width:390px) {     
+@media(max-width:390px) {      
      
     // header
      
-    .header__top{ 
-        padding: 16px 38px 16px 34px;
-    } 
      
     .header__main {
         padding: 166px 0 0 21px;
@@ -1083,7 +1223,7 @@
         row-gap: 45px; 
     }  
      
-    // video 
+    // video  
      
     .video__suptitle {
         font-size: 30px;
@@ -1098,7 +1238,7 @@
     .video__content {
         max-width: 279px;
         height: 197px;  
-        margin-bottom: 103px;
+        margin-bottom: 70px; 
     } 
      
     .video__content-img, 
@@ -1260,7 +1400,24 @@
     // benefits3
      
     .benefits3__items {
-        margin-bottom: 100px;
+        margin-bottom: 70px;
+    }  
+     
+    .benefits3 {
+        padding-top: 40px;
+    }
+     
+    // video
+     
+    .video__content {
+        margin-bottom: 50px; 
+    }   
+     
+    // contact
+     
+    .contact__booking {
+        row-gap: 36px;
+        margin-bottom: 30px; 
     }
 
 }
@@ -1271,6 +1428,22 @@
      
     .benefits3__items {
         grid-row-gap: 50px; 
+    }
+
+} 
+ 
+@media(max-width:325px) {     
+     
+    // benefits1
+     
+    .benefits1 {
+        padding-top: 23px; 
+    }  
+     
+    // benefits3
+     
+    .benefits3 {
+        padding-top: 21px; 
     }
 
 }

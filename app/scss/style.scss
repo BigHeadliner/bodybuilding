@@ -22,12 +22,12 @@
         right: 0;
         z-index: 999;
         background-color: #030D19;
-        padding: 60px 74px 60px 90px;
+        padding: 30px 50px;
     }
 
     &__logo-img {
-        width: 146px;
-        height: 60px;
+        width: 147px;
+        height: 107px;
     }
 
     .menu {
@@ -389,7 +389,8 @@
   
 .benefits3{ 
     background-color: #030d19; 
-    padding-top: 107px; 
+    padding: 107px 0 140px;  
+  
      
    &__title{  
      @extend %hind-500; 
@@ -441,8 +442,9 @@
     background-image: url('../images/booking/young-fitness-man.png');  
     background-color: #030d19; 
     background-repeat: no-repeat;  
-    background-size: auto;
-    background-position: bottom right;
+    background-size: cover;
+    background-position: bottom right;  
+    margin-bottom: 75px;
      
     &__title{ 
         @extend %hind-500; 
@@ -466,6 +468,33 @@
          background: transparent; 
          border: 1px solid #F7084C;
     }
+} 
+ 
+.footer{   
+    border-top: 3px solid #F7084C; 
+    background-color: #030d19;  
+     
+    &__inner{ 
+        border: 1px solid transparent; 
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center;
+    }    
+     
+    &__copyright{ 
+        color:#FFF;
+    }
+     
+    &__social{ 
+        border: 1px solid transparent; 
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center;  
+        width: 100%;
+        max-width: 195px; 
+        padding-right: 40px;
+    }
+
 }
 
 
